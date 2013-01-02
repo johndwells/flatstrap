@@ -119,14 +119,14 @@ input[type="color"],
 .uneditable-input {
   background-color: @inputBackground;
   border: 1px solid @inputBorder;
- .box-shadow(none);
+//.box-shadow(none);
 
   // Focus state
   &:focus {
     border-color: rgba(82,168,236,.8);
     outline: 0;
     outline: thin dotted \9; /* IE6-9 */
-   .box-shadow(none);
+  //.box-shadow(none);
   }
 }
 
@@ -189,7 +189,7 @@ input[type="checkbox"]:focus {
   color: @grayLight;
   background-color: darken(@inputBackground, 1%);
   border-color: @inputBorder;
- .box-shadow(none);
+//.box-shadow(none);
   cursor: not-allowed;
 }
 
@@ -373,7 +373,7 @@ select:focus:invalid {
   &:focus {
     border-color: darken(#ee5f5b, 10%);
     @shadow: 0 0 6px lighten(#ee5f5b, 20%);
-   .box-shadow(none);
+  //.box-shadow(none);
   }
 }
 
